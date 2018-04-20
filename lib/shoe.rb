@@ -9,7 +9,8 @@ class Shoe
   attr_accessor :color,:size,:material,:condition
 
   def cobble
-    @condition = "new"
+    @condition = "new" #using an instance variable to show condition attribute
+    #is changed to new
     puts "Your shoe is as good as new!"
   end
 
