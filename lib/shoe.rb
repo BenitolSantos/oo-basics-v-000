@@ -9,6 +9,7 @@ class Shoe
   attr_accessor :color,:size,:material
 
   def cobble
+    puts "Your shoe is good as new!"
   end
 
 
